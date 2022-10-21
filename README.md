@@ -10,9 +10,6 @@ This action inspects a Terraform module, finds all configuration aliases, and wr
 
 ```yaml
 steps:
-  - uses: actions/setup-go@v3
-    with:
-      go-version: '1.18'
   - uses: bendrucker/terraform-configuration-aliases-action@v1
 ```
 
